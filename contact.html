@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage - Alon's Homework</title>
     <link rel="stylesheet" href="design.css">
-    <link rel="icon"
-        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/114/closed-book_1f4d5.png"
-        type="image/x-icon">
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/114/closed-book_1f4d5.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
     <title>About Us</title>
 </head>
 
@@ -27,21 +26,37 @@
         </ul>
     </nav>
     <div class="body-text">
-        <h1>We're looking forward to hearing from you!</h1>
+        <h1 class="animate__animated animate__flash">We're looking forward to hearing from you!</h1>
     </div>
     <br>
-    <form>
+    <form action="fakeServer.com" method="get">
         <style>
             body {
                 color: white;
             }
         </style>
         Name: <input type="name">
-        Last Name: <input type="name">
+        Last Name: <input name="Username">
+        <br><br>
+        Gender:
+        <select name="Gender" id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        Age:<input type="number" min="20">
+        <br><br>
+        Marital Status:
+        <select name="Status" id="Status">
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Widowed">Widowed</option>
+        </select>
         <br><br>
         Email: <input type="email">
         Phone Number: <input type="number">
-        <br><br><br>
+        <br><br>
         Subject Of Assignment:
         <label for="Subject:"></label>
         <select name="Subject" id="Subject">
@@ -50,12 +65,13 @@
             <option value="English">English</option>
             <option value="Literature">Literature</option>
         </select>
-        <br>
-        <br>
-        <div class="Colors">
-        Favorite Color: <input type="color" name="Color" value="Favorite Color">
-    </div>
         <br><br>
+        <div class="Colors">
+            Favorite Color: <input type="color" name="Color" value="Favorite Color">
+            <br>
+            <br>
+        </div>
+        <input type="reset">
         <input type="submit" value="Submit">
         <style>
             form [type=radio] {
@@ -75,5 +91,4 @@
         </ul>
     </footer>
 </body>
-
 </html>
