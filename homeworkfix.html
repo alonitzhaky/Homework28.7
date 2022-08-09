@@ -10,69 +10,27 @@
         type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./homeworkfix.css">
+    <script src="./homeworkfix.js"></script>
     <title>Java Homework by Alon Itzhaky</title>
 </head>
-
 <body>
-    <script>
-        // Mission 1
-        function doSomeCalc() {
-            console.log("i did math yay")
-        }
-        function yayForMe() {
-            console.log("yay for you")
-        }
-    </script>
     <h1 class="animate__animated animate__fadeIn">Alon's <span class="HW">Homework</span> - JavaScript</h1>
-    <style>
-        h1 {
-            text-align: center;
-            font-family: 'Oleo Script Swash Caps', cursive;
-            color: rgb(100, 222, 0);
-        }
 
-        .HW {
-            color: rgb(32, 175, 19);
-        }
-    </style>
     <!-- Mission 1 HTML -->
-    <p>
     <h2>First Assignment - Call a method out of TextBox with 2 different events, using the same function.</h1>
-        </p>
-        <button onclick="doSomeCalc()" onmouseenter="yayForMe()">Click Me - I Am Cute.</button>
-        <style>
-            button {
-                color: rgb(32, 175, 19);
-            }
-        </style>
+        <button class="but" onclick="doSomeCalc()" onmouseenter="yayForMe()">Click Me - I Am Cute.</button>
         <br>
         <p>
         <h2>Second Assignemnt - Call a method by using ComboBox (using select tag w/ HTML)</h2>
         </p>
-
-
-        <script>
-
-            // Mission 2
-            function doCombo() {
-                console.log("i hate JavaScript")
-            }
-        </script>
         <select name="ComboBox" id="ComboBox" onchange="doCombo()">
             <option> Number 1</option>
             <option> Number 2</option>
             <option> Number 3</option>
         </select>
-        <style>
-            select{
-                color: rgb(32, 175, 19);
-            }
-        </style>
-
-
-
 </body>
 
 </html>
