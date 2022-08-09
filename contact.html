@@ -42,14 +42,19 @@
         Email: <input type="email">
         Phone Number: <input type="number">
         <br><br><br>
-        Subject Of Assignment: <br>
-        <input type="radio" name="Subject" value="Math"> Math
+        Subject Of Assignment:
+        <label for="Subject:"></label>
+        <select name="Subject" id="Subject">
+            <option value="History">History</option>
+            <option value="Math">Math</option>
+            <option value="English">English</option>
+            <option value="Literature">Literature</option>
+        </select>
         <br>
-        <input type="radio" name="Subject" value="Geography"> Geography
         <br>
-        <input type="radio" name="Subject" value="English"> English
-        <br>
-        <input type="radio" name="Subject" value="History"> History
+        <div class="Colors">
+        Favorite Color: <input type="color" name="Color" value="Favorite Color">
+    </div>
         <br><br>
         <input type="submit" value="Submit">
         <style>
