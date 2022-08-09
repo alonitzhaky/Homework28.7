@@ -29,14 +29,17 @@
         <h1 class="animate__animated animate__flash">We're looking forward to hearing from you!</h1>
     </div>
     <br>
-    <form action="fakeServer.com" method="get">
+    <form action="fakeServer.com" method="post" required>
         <style>
             body {
+                color: black;
+            }
+            h1{
                 color: white;
             }
         </style>
-        Name: <input type="name">
-        Last Name: <input name="Username">
+        Name: <input type="name" required>
+        Last Name: <input name="Username" required>
         <br><br>
         Gender:
         <select name="Gender" id="Gender">
@@ -79,7 +82,7 @@
             }
         </style>
     </form>
-
+    
     <footer class="footer">
         <p> &#169 Alon Itzhaky 2022</p>
         <ul></ul>

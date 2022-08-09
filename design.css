@@ -56,6 +56,9 @@ a {
 }
 form {
   text-align: center;
+  background-color: white;
+  padding: 20px 100px 10px;
+  opacity: 80%;
 }
 .footer {
   position: fixed;
@@ -89,4 +92,15 @@ body {
   background-image: url(./media/classroom.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
+}
+/* .video{
+  display: block;
+  border-style: none;
+  margin: 10px 500px;
+} */
+.video{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 490px;
 }
